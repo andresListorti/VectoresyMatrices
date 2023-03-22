@@ -15,16 +15,16 @@ public class EjerciciosExtra3 {
         mostrador(vector);
     }
 
+    // Funcion para cargar numeros random al vector N
     public static double[] rellenador(double[] vector) {
-        // cargamos numeros random al vector N
         for (int i = 0; i < vector.length; i++) {
             vector[i] = Math.floor(Math.random() * 10);
         }
         return vector;
     }
 
+    // Funcion para mostrar Vector
     public static void mostrador(double[] vector) {
-        // Mostramos vector
         String aux = "";
         for (double i : vector) {
             aux += " " + i;
