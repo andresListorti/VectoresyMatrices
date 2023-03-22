@@ -42,7 +42,8 @@ public class Ejercicio5 {
                 }
             }
         }
-        System.out.println(coincidencia);
+        System.out.println("iguales " + coincidencia);
+        System.out.println("distintos " + diferencia);
         System.out.println("el booleano quedo " + completo);
         //
         String aux = "";
